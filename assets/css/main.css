@@ -1636,3 +1636,25 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+
+	
+		  /* Then style the iframe to fit in the container div with full height and width */
+		  @media screen and (max-width: 736px) {
+
+			iframe {
+				width: 100%;
+				height: max-content;
+			}
+
+			
+		}
+
+		@media screen and (max-width: 480px) {
+
+			iframe {
+				width: 100%;
+				height: max-content;
+			}
+
+		}
